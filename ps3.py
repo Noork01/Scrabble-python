@@ -1,11 +1,9 @@
 # 6.0001 Problem Set 3
-#
+
 # The 6.0001 Word Game
-# Created by: Kevin Luu <luuk> and Jenna Wiens <jwiens>
-#
+
 # Name          : Noor Khan
-# Collaborators : <your collaborators>
-# Time spent    : <total time>
+
 
 import math
 import random
@@ -20,9 +18,8 @@ SCRABBLE_LETTER_VALUES = {
     'o': 1, 'p': 3, 'q': 10, 'r': 1, 's': 1, 't': 1, 'u': 1, 'v': 4, 'w': 4, 'x': 8, 'y': 4, 'z': 10, '*': 0
 }
 
-# -----------------------------------
-# Helper code
-# (you don't need to understand this helper code)
+
+
 
 WORDLIST_FILENAME = "words.txt"
 
@@ -63,8 +60,7 @@ def get_frequency_dict(sequence):
     return freq
 
 
-# (end of helper code)
-# -----------------------------------
+
 
 #
 # Problem #1: Scoring a word
